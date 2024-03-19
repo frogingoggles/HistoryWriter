@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C76199FB2BA4ED64009D13E7 /* AddNewSymptomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76199FA2BA4ED64009D13E7 /* AddNewSymptomView.swift */; };
 		C79CFC042BA262F500AEC545 /* HistoryWriterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC032BA262F500AEC545 /* HistoryWriterApp.swift */; };
 		C79CFC062BA262F500AEC545 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC052BA262F500AEC545 /* ContentView.swift */; };
 		C79CFC082BA262F600AEC545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79CFC072BA262F600AEC545 /* Assets.xcassets */; };
@@ -14,6 +15,8 @@
 		C79CFC152BA262F600AEC545 /* HistoryWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC142BA262F600AEC545 /* HistoryWriterTests.swift */; };
 		C79CFC1F2BA262F600AEC545 /* HistoryWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC1E2BA262F600AEC545 /* HistoryWriterUITests.swift */; };
 		C79CFC212BA262F600AEC545 /* HistoryWriterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC202BA262F600AEC545 /* HistoryWriterUITestsLaunchTests.swift */; };
+		C79CFC2E2BA2632600AEC545 /* SymptomCheckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC2D2BA2632600AEC545 /* SymptomCheckList.swift */; };
+		C79CFC302BA270CE00AEC545 /* SymptomProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79CFC2F2BA270CE00AEC545 /* SymptomProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C76199FA2BA4ED64009D13E7 /* AddNewSymptomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSymptomView.swift; sourceTree = "<group>"; };
 		C79CFC002BA262F500AEC545 /* HistoryWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HistoryWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79CFC032BA262F500AEC545 /* HistoryWriterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryWriterApp.swift; sourceTree = "<group>"; };
 		C79CFC052BA262F500AEC545 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +48,8 @@
 		C79CFC1A2BA262F600AEC545 /* HistoryWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HistoryWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79CFC1E2BA262F600AEC545 /* HistoryWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryWriterUITests.swift; sourceTree = "<group>"; };
 		C79CFC202BA262F600AEC545 /* HistoryWriterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryWriterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C79CFC2D2BA2632600AEC545 /* SymptomCheckList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomCheckList.swift; sourceTree = "<group>"; };
+		C79CFC2F2BA270CE00AEC545 /* SymptomProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				C79CFC032BA262F500AEC545 /* HistoryWriterApp.swift */,
+				C79CFC2D2BA2632600AEC545 /* SymptomCheckList.swift */,
+				C79CFC2F2BA270CE00AEC545 /* SymptomProtocol.swift */,
 				C79CFC052BA262F500AEC545 /* ContentView.swift */,
+				C76199FA2BA4ED64009D13E7 /* AddNewSymptomView.swift */,
 				C79CFC072BA262F600AEC545 /* Assets.xcassets */,
 				C79CFC092BA262F600AEC545 /* Preview Content */,
 			);
@@ -259,6 +268,9 @@
 			files = (
 				C79CFC062BA262F500AEC545 /* ContentView.swift in Sources */,
 				C79CFC042BA262F500AEC545 /* HistoryWriterApp.swift in Sources */,
+				C79CFC2E2BA2632600AEC545 /* SymptomCheckList.swift in Sources */,
+				C76199FB2BA4ED64009D13E7 /* AddNewSymptomView.swift in Sources */,
+				C79CFC302BA270CE00AEC545 /* SymptomProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
